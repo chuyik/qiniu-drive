@@ -2,6 +2,9 @@
   "name": "qiniu-drive",
   "version": "0.1.0",
   "description": "Use Quniu like a syncable net drive.",
+  "repository": {
+    "url": "https://github.com/chuyik/qiniu-drive"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
@@ -11,9 +14,13 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "bluebird": "^3.4.6",
+    "colors": "^1.1.2",
+    "ejs": "^2.5.2",
+    "highlight.js": "^9.7.0",
     "js-yaml": "^3.6.1",
     "jsonfile": "^2.4.0",
     "lodash": "^4.16.4",
+    "marked": "^0.3.6",
     "md5-file": "^3.1.1",
     "qiniu": "^6.1.13",
     "watch": "^1.0.1"
