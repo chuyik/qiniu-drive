@@ -1,0 +1,32 @@
+# -------------------------------
+# 必填项
+# -------------------------------
+
+# 七牛云密钥：
+# https://portal.qiniu.com/user/key
+qiniu:
+  AK: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  SK: yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+
+# 存储资源列表见：
+# https://portal.qiniu.com/bucket
+# 
+#   - `bucket` 为存储资源的空间名称
+#   - `domain` 为存储资源域名
+#   - `dir`    为本地目录
+folders:
+  - domain: xxxxxxxx.qiniudn.com
+    bucket: bucket-name
+    dir: /path/to/dir
+
+# -------------------------------
+# 以下为高级选项，可忽略
+# -------------------------------
+
+# 可选项参考:
+# https://github.com/mikeal/watch
+watchOption:
+  ignoreDotFiles: true
+  ignoreUnreadableDir: true
+  ignoreNotPermitted: true
+  ignoreDirectoryPattern: !!js/regexp /node_modules/

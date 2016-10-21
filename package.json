@@ -1,0 +1,21 @@
+{
+  "name": "qiniu-drive",
+  "version": "0.1.0",
+  "description": "Use Quniu like a syncable net drive.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edward Chu <crazyzyt@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "js-yaml": "^3.6.1",
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.16.4",
+    "md5-file": "^3.1.1",
+    "qiniu": "^6.1.13",
+    "watch": "^1.0.1"
+  }
+}
